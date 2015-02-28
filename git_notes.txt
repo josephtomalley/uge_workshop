@@ -1,0 +1,9 @@
+git status
+git add
+git status
+git commit
+git status
+
+git ll : condensed status
+git branch : shows you which branch you're on
+git checkout : <branch> changes which branch you're on
