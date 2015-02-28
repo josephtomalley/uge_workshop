@@ -1,0 +1,184 @@
+4 traits thats make unix developer friendly:
+  -unix data is store as plaintext files
+  -nested subdirectories
+  -made of many small programs
+  -input-output redirectionn(input from some place besides the keyboard and output to somewhere besides the screen)
+
+Unix kernel:
+  -program that manages hardware
+  -CPU/memory/devices->kernel->other programs
+  -the kernel is safe from hackers
+  -
+Unix shell:
+  -program that provides a user interface.
+  -GUI/terminal/touch/audible
+  -prevents the user from directly accessing the kernel
+ 
+>    :takes an output and creates a new file "history > moving_around.txt"
+>>   :appends and output to an existing file "history >> moving_around.txt"
+| less  :takes an output and opens it in a pager 
+cd   :move to home directory
+/    :move to root directory
+../  :move up one directory
+~    :move to home directory
+
+
+ls
+cd
+~
+history | sort | less
+history | sort
+history | less
+history
+ls .
+ls.
+../
+cd ..
+ls ..
+cd code-review
+cd repos
+cd desktop
+la
+cd rabbitracerevision
+cs rabbitracerevision
+cd movies
+ls pictures
+cd public
+cd 
+cd downloads
+pwd
+cd ~
+cd /
+ll
+ls -Sl
+ls -S
+ls -a
+ls -r
+man ls
+ls -1
+c
+ls -l
+ls -@
+ls-@
+cd documents
+cd josephomalley/
+cd josep
+cd users
+;s -@
+ls -lU
+ls -U
+ls -m
+ls -j
+ls -i
+ls -q
+man -r
+ls -rlt
+ls -rt
+ls -lt
+ls -t
+curl -fsSL http://git.io/7UHtNA | sh
+curl -fsSL http://git.io/QxUaOQ | sh
+brew install git
+git --version
+which subl
+which ruby
+which uname
+echo $PATH
+echo $EDITOR
+chsh -s /usr/local/bin/fish
+curl -fsSL http://git.io/beJs | ruby
+brew update
+brew info fish
+brew info
+ls -G
+uname
+$unme
+unme
+cd coding
+which brew
+subl /etc/paths
+/Users/josephomalley subl /etc/paths
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+fish_update_completions
+echo '/usr/local/bin/fish' | sudo tee -a /etc/shells
+brew install fish
+brew doctor
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+preferences
+terminal
+git log
+git init
+git status
+git clone https://github.com/josephtomalley/rabbitracerevision.git
+touch notes020915
+git push origin master
+git commit -m "add guess game"
+git add guessingGameOMalley.html
+git add guessingGameOmalley.html
+cd desktop/repos
+touch GuessingGameOMalley.html
+git commit -m "update README"
+git add README.md 
+git add
+git staus
+subl .
+cd code-review/
+cd repos/
+cd Desktop/
+subl help
+open bin
+cd bin
+cd usr
+git clone https://github.com/josephtomalley/code-review.git
+mkdir repos
+cd Desktop
+source ~/.bash_profile
+open ~/.bash_profile
+touch ~/.bash_profile
+sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
+git config --list
+git config --global user.email "joseph.t.omalley@gmail.com"
+git config --global user.name "Joseph O'Malley"
+git
+$ git cofig --global user.name "Joseph O'Malley"
+mkdir 020415
+open 'Notes 2215.html'
+ls -la
+cd 'Notes 2:2:15'
+rm -r test
+rm test
+rm -r blob14
+mv blob blob14
+cd test
+cd /test
+cd ././
+cd ./
+cd./
+././
+./
+touch blob 2
+touch blob1
+cd blob
+mkdir blob
+mkdir test
+mkdir linuxtutorialwork
+cd Documents
+pws
+man -k er
+man -k 
+file 'Screen Shot 2015-02-02 at 2.55.10 PM.png'
+file 'screen shot'
+cd /bin
+cd /etc
+cd pictures
+./Documents
+../../
+ls ~/Documents
+Ls /etc
+LS -l /etc
+LS -l
+echo $SHELL
+echo %SHELL
+
